@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{40D6BE62-57BD-3979-B076-F2BF75380578}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>winpr</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\FreeRdpClient\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winpr.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winpr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\FreeRdpClient\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winpr.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winpr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\FreeRdpClient\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">winpr.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">winpr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\FreeRdpClient\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">winpr.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">winpr</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;_DEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;_DEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ntdsapi.lib;crypt32.lib;C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win64\lib\VC\libeay32MD.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/FreeRdpClient/Debug/winpr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/FreeRdpClient/Debug/winpr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;NDEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="Release";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;NDEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ntdsapi.lib;crypt32.lib;C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win64\lib\VC\libeay32MD.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/FreeRdpClient/Release/winpr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/FreeRdpClient/Release/winpr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;NDEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;NDEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ntdsapi.lib;crypt32.lib;C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win64\lib\VC\libeay32MD.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/FreeRdpClient/MinSizeRel/winpr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/FreeRdpClient/MinSizeRel/winpr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;NDEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_AMD64_;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;WINVER=0x0501;WIN32_WINNT=0x0501;WINPR_EXPORTS;FREERDP_EXPORTS;WINPR_EXPORTS;NDEBUG;WITH_OPENSSL;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";winpr_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\FreeRdpClient;D:\FreeRdpClient\include;D:\FreeRdpClient\FreeRDP-master\include;D:\FreeRdpClient\FreeRDP-master\winpr\include;D:\FreeRdpClient\winpr\include;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio;D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\.;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ntdsapi.lib;crypt32.lib;C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win64\lib\VC\libeay32MD.lib;Dbghelp.lib;ws2_32.lib;rpcrt4.lib;credui.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/FreeRdpClient/RelWithDebInfo/winpr.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/FreeRdpClient/RelWithDebInfo/winpr.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\synch.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pipe\pipe.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crypto\crypto.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\registry\registry_reg.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\io\io.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\memory\memory.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng\lodepng.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\strio.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\trio.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\triodef.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\trionan.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\triop.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\triostr.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\wlog.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\Layout.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\Message.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\TextMessage.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\DataMessage.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\ImageMessage.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\PacketMessage.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\Appender.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\FileAppender.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\BinaryAppender.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\CallbackAppender.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\ConsoleAppender.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\pool.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\handle\handle.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\handle\nonehandle.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\thread\thread.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm_compute.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm_message.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\Negotiate\negotiate.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\Schannel\schannel_openssl.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\Schannel\schannel.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\sspi_winpr.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\sspi.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\utf.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_array.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_context.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_correlation.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_pointer.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_private.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_simple.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_string.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_structure.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_union.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\wtsapi\wtsapi.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\wtsapi\wtsapi_win32.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\wnd\wnd.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard_pcsc.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard_inspect.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard_winscard.h" />
+    <ClInclude Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\clipboard\clipboard.h" />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\address.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\barrier.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\condition.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\critical.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\event.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\init.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\mutex.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\semaphore.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\sleep.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\srw.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\timer.c" >
+      <ObjectFileName>$(IntDir)/synch/timer.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\synch\wait.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\locale\locale.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\library\library.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\file\generic.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\file\namedPipeClient.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\file\pattern.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\file\file.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pipe\pipe.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\interlocked\interlocked.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\security\security.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\environment\environment.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crypto\hash.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crypto\rand.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crypto\cipher.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crypto\cert.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crypto\crypto.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\registry\registry_reg.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\registry\registry.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\credentials\credentials.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\path\path.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\path\shell.c" >
+      <ObjectFileName>$(IntDir)/path/shell.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\io\device.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\io\io.c" >
+      <ObjectFileName>$(IntDir)/io/io.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\memory\memory.c" >
+      <ObjectFileName>$(IntDir)/memory/memory.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\input\virtualkey.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\input\scancode.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\input\keycode.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\shell\shell.c" >
+      <ObjectFileName>$(IntDir)/shell/shell.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\heap\heap.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\ini.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\sam.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\ntlm.c" >
+      <ObjectFileName>$(IntDir)/utils/ntlm.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\image.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\print.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\stream.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\debug.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\winpr.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\cmdline.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\ssl.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\Queue.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\Stack.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\PubSub.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\BipBuffer.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\BitStream.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\Reference.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\ArrayList.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\Dictionary.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\LinkedList.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\HashTable.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\ListDictionary.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\KeyValuePair.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\CountdownEvent.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\BufferPool.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\ObjectPool.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\StreamPool.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\MessageQueue.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\collections\MessagePipe.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\lodepng\lodepng.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\trio.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\trionan.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\trio\triostr.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\wlog.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\Layout.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\Message.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\TextMessage.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\DataMessage.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\ImageMessage.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\PacketMessage.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\Appender.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\FileAppender.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\BinaryAppender.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\CallbackAppender.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\utils\wlog\ConsoleAppender.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\error\error.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\com\com.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\timezone\timezone.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sysinfo\sysinfo.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\synch.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\work.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\timer.c" >
+      <ObjectFileName>$(IntDir)/pool/timer.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\io.c" >
+      <ObjectFileName>$(IntDir)/pool/io.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\cleanup_group.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\pool.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\callback_environment.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\callback.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\pool\callback_cleanup.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\handle\handle.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\handle\nonehandle.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\thread\argv.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\thread\process.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\thread\processor.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\thread\thread.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\thread\tls.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\winsock\winsock.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm_compute.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm_message.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\NTLM\ntlm.c" >
+      <ObjectFileName>$(IntDir)/sspi/NTLM/ntlm.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\Negotiate\negotiate.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\Schannel\schannel_openssl.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\Schannel\schannel.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\CredSSP\credssp.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\sspi_winpr.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\sspi_export.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspi\sspi.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\winhttp\winhttp.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\asn1\asn1.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\sspicli\sspicli.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\alignment.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\conversion.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\buffer.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\memory.c" >
+      <ObjectFileName>$(IntDir)/crt/memory.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\string.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\unicode.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\crt\utf.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\bcrypt\bcrypt.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\rpc.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_array.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_context.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_correlation.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_pointer.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_private.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_simple.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_string.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_structure.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\ndr_union.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\rpc\midl.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\credui\credui.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\wtsapi\wtsapi.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\wtsapi\wtsapi_win32.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\dsparse\dsparse.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\wnd\wnd.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard_pcsc.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard_inspect.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\smartcard\smartcard_winscard.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\nt\nt.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\clipboard\synthetic.c"  />
+    <ClCompile Include="D:\FreeRdpClient\FreeRDP-master\winpr\libwinpr\clipboard\clipboard.c"  />
+    <ResourceCompile Include="D:\FreeRdpClient\winpr\libwinpr\version.rc"  />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

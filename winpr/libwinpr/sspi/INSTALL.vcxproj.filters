@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\FreeRdpClient\CMakeFiles\fcb153d5af3f599a999ff60062cda95e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E9B7246D-BD94-39DA-85DC-FAE961E52B75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,687 @@
+﻿Build started 11/8/2015 4:04:20 PM.
+     1>Project "D:\FreeRdpClient\libfreerdp\freerdp.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\\" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\utils\passphrase.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\utils\pcap.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\utils\profiler.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\utils\ringbuffer.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\utils\signal.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\utils\stopwatch.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\addin.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\8bpp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\16bpp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\32bpp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\clipping.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\dc.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\drawing.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\line.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\pen.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\shape.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\gfx.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\gdi.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\pointer.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\nine_grid.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\offscreen.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\glyph.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\cache.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\er.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\der.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\ber.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\per.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\base64.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\crypto.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\tls.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\locale\keyboard_layout.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\locale\keyboard.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\locale\locale.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\bulk.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\activation.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nla.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\info.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\input.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\license.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\errinfo.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\errbase.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\errconnect.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\security.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\orders.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\freerdp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\client.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\codecs.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\metrics.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\connection.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\redirection.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\autodetect.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\heartbeat.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\multitransport.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tpdu.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tpkt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\surface.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\transport.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\message.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\channels.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\window.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\listener.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\peer.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_bind.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_fault.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rts.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rts_signature.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\ntlm.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\ncacn_http.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\dsp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\audio.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\interleaved.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_decode.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_differential.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_dwt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_encode.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_quantization.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\nsc.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\nsc_encode.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\zgfx.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\clear.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\jpeg.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\h264.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_add.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_andor.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_alphaComp.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_colors.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_copy.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_shift.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_sign.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YUV.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\primitives.c"
+         passphrase.c
+         pcap.c
+         profiler.c
+         ringbuffer.c
+         signal.c
+         stopwatch.c
+         addin.c
+         assistance.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(134): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(170): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(193): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(265): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(484): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(485): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\assistance.c(796): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         8bpp.c
+         16bpp.c
+         32bpp.c
+         clipping.c
+         dc.c
+         drawing.c
+         line.c
+         pen.c
+         shape.c
+         gfx.c
+         gdi.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\gdi.c(539): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\gdi.c(540): warning C4018: '<' : signed/unsigned mismatch
+         pointer.c
+         Generating Code...
+         Compiling...
+         nine_grid.c
+         offscreen.c
+         glyph.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\glyph.c(95): warning C4018: '>' : signed/unsigned mismatch
+         cache.c
+         er.c
+         der.c
+         ber.c
+         per.c
+         base64.c
+         crypto.c
+         tls.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\tls.c(198): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\tls.c(565): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         keyboard_layout.c
+         keyboard.c
+         locale.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\locale\locale.c(645): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\locale\locale.c(658): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         bulk.c
+         activation.c
+         gcc.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(210): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(228): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(322): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(333): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(390): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(1366): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gcc.c(1597): warning C4018: '<' : signed/unsigned mismatch
+         mcs.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(329): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(574): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(576): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(611): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(613): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(654): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(663): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(672): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(760): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(769): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\mcs.c(774): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         nla.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nla.c(168): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nla.c(264): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         nego.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(664): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(698): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(812): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(838): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(866): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(1006): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\nego.c(1037): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         info.c
+         input.c
+         license.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\license.c(187): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\license.c(206): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\license.c(980): warning C4267: '=' : conversion from 'size_t' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\license.c(982): warning C4267: '=' : conversion from 'size_t' to 'UINT16', possible loss of data
+         errinfo.c
+         errbase.c
+         errconnect.c
+         security.c
+         orders.c
+         freerdp.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\freerdp.c(168): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+         client.c
+         server.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(244): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(346): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(378): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(945): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(1083): warning C4244: 'function' : conversion from '__int64' to 'ULONG', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(1138): warning C4244: 'function' : conversion from '__int64' to 'ULONG', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(1262): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\server.c(1268): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+         codecs.c
+         metrics.c
+         capabilities.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(136): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(147): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(3656): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(3660): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(3686): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(3811): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(3815): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\capabilities.c(3906): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         connection.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\connection.c(206): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\connection.c(214): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         redirection.c
+         autodetect.c
+         heartbeat.c
+         multitransport.c
+         rdp.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(450): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(471): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(528): warning C4244: '=' : conversion from '__int64' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(551): warning C4244: '=' : conversion from '__int64' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(555): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(580): warning C4244: '=' : conversion from '__int64' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(584): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(608): warning C4244: '=' : conversion from '__int64' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(612): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\rdp.c(1161): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         tcp.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c(510): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c(598): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c(923): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c(980): warning C4244: 'return' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c(1130): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tcp.c(1139): warning C4267: 'function' : conversion from 'size_t' to 'socklen_t', possible loss of data
+         tpdu.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tpdu.c(168): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\tpdu.c(185): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         tpkt.c
+         fastpath.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c(188): warning C4244: '=' : conversion from '__int64' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c(395): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c(475): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c(503): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c(819): warning C4244: '=' : conversion from '__int64' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\fastpath.c(948): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+         surface.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\surface.c(59): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         transport.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\transport.c(465): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\transport.c(478): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\transport.c(576): warning C4244: 'function' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\transport.c(586): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\transport.c(597): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         update.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(645): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(817): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1123): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1152): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1180): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1208): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1236): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1264): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1292): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1331): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1341): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1381): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1391): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1426): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1436): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1469): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1479): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1512): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1521): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1554): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1563): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1595): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1604): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1641): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1649): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1677): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\update.c(1685): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         message.c
+         channels.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\channels.c(135): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\channels.c(154): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\channels.c(180): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+         window.c
+         listener.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\listener.c(127): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\listener.c(154): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\listener.c(327): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\listener.c(358): warning C4244: '=' : conversion from 'SOCKET' to 'int', possible loss of data
+         peer.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\peer.c(53): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         tsg.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(159): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(336): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(647): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(709): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(870): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(1012): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(1062): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(1130): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\tsg.c(1194): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+         rdg.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(69): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(202): warning C4267: 'initializing' : conversion from 'size_t' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(242): warning C4267: 'initializing' : conversion from 'size_t' to 'UINT16', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(359): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(375): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(424): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(440): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(474): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(840): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(877): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(1158): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(1192): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rdg.c(1221): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         rpc.c
+         rpc_bind.c
+         rpc_client.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(114): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(200): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(225): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(263): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(578): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(598): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\rpc_client.c(605): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+         rpc_fault.c
+         rts.c
+         rts_signature.c
+         Generating Code...
+         Compiling...
+         ntlm.c
+         http.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(262): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(279): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(294): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(309): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(389): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(646): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(671): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(679): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(690): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\http.c(734): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         ncacn_http.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\ncacn_http.c(84): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\ncacn_http.c(105): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\ncacn_http.c(205): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\gateway\ncacn_http.c(226): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         dsp.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\dsp.c(239): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\dsp.c(408): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\dsp.c(558): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\dsp.c(672): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+         color.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c(1391): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c(1395): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c(1504): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c(1507): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c(1563): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\color.c(1568): warning C4018: '>' : signed/unsigned mismatch
+         audio.c
+         planar.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(430): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(437): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(444): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(451): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(460): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(467): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(474): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(778): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\planar.c(1157): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         interleaved.c
+         progressive.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(872): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(899): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(917): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(933): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(941): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(958): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(963): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(966): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(991): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1007): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1015): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1055): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1058): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1702): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1726): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\progressive.c(1754): warning C4018: '<' : signed/unsigned mismatch
+         rfx_decode.c
+         rfx_differential.c
+         rfx_dwt.c
+         rfx_encode.c
+         rfx_quantization.c
+         rfx_rlgr.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(141): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(164): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(176): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(181): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(204): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(212): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(227): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(239): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(244): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(253): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(303): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(335): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(347): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(352): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(361): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(443): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(448): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_rlgr.c(502): warning C4018: '<' : signed/unsigned mismatch
+         rfx.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx.c(276): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx.c(913): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx.c(1030): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         nsc.c
+         nsc_encode.c
+         ncrush.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2031): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2076): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2202): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2332): warning C4244: 'function' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2339): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2590): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\ncrush.c(2604): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+         xcrush.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(261): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(411): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(412): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(669): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(786): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(795): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\xcrush.c(796): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+         Generating Code...
+         Compiling...
+         mppc.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(96): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(147): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(163): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(184): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(194): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(204): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(214): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(232): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(242): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(252): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(276): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(286): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(296): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(306): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(316): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(326): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(336): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(346): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(356): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(366): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(376): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(386): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(396): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(406): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(416): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(532): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(551): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(557): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(584): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(600): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(606): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(612): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(618): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(627): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(633): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(639): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(648): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(654): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(660): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(666): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(672): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(678): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(684): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(690): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(696): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(702): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(708): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(714): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(720): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(726): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(732): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(741): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(760): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(766): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(772): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\mppc.c(786): warning C4244: '=' : conversion from '__int64' to 'UINT32', possible loss of data
+         zgfx.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\zgfx.c(158): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\zgfx.c(249): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\zgfx.c(261): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\zgfx.c(289): warning C4018: '<' : signed/unsigned mismatch
+         clear.c
+         jpeg.c
+         h264.c
+         prim_16to32bpp.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(57): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(59): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(72): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(74): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(90): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(92): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(105): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp.c(107): warning C4018: '<' : signed/unsigned mismatch
+         prim_add.c
+         prim_andor.c
+         prim_alphaComp.c
+         prim_colors.c
+         prim_copy.c
+         prim_set.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set.c(73): warning C4267: 'function' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set.c(105): warning C4267: 'function' : conversion from 'size_t' to 'INT32', possible loss of data
+         prim_shift.c
+         prim_sign.c
+         prim_YUV.c
+         prim_YCoCg.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg.c(55): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg.c(57): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg.c(86): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg.c(88): warning C4018: '<' : signed/unsigned mismatch
+         primitives.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/common/settings.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\settings.c"
+         settings.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\settings.c(96): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\common\settings.c(139): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/gdi/bitmap.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\bitmap.c"
+         bitmap.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/gdi/brush.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\brush.c"
+         brush.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/gdi/palette.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\palette.c"
+         palette.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/gdi/region.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\region.c"
+         region.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/gdi/graphics.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\gdi\graphics.c"
+         graphics.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/cache/brush.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\brush.c"
+         brush.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/cache/bitmap.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\bitmap.c"
+         bitmap.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/cache/palette.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\cache\palette.c"
+         palette.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/crypto/certificate.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\certificate.c"
+         certificate.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\certificate.c(333): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\certificate.c(335): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\certificate.c(591): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\crypto\certificate.c(595): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/locale/timezone.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\locale\timezone.c"
+         timezone.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/core/settings.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\settings.c"
+         settings.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/core/graphics.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\graphics.c"
+         graphics.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/core/certificate.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\certificate.c"
+         certificate.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\certificate.c(510): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\certificate.c(817): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/core/timezone.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\core\timezone.c"
+         timezone.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/codec/bitmap.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\bitmap.c"
+         bitmap.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\bitmap.c(511): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\bitmap.c(803): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\/codec/region.c.obj" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\region.c"
+         region.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\region.c(449): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\"C:/Program Files/FreeRDP/lib/freerdp/extensions\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\"Debug\"" /D freerdp_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freerdp.dir\Debug\\" /Fd"freerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\rfx_sse2.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\codec\nsc_sse2.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_add_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_andor_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_alphaComp_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_colors_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_shift_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_sign_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YUV_opt.c" "D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg_opt.c"
+     1>cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+         rfx_sse2.c
+         nsc_sse2.c
+         prim_16to32bpp_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp_opt.c(63): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp_opt.c(71): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp_opt.c(167): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_16to32bpp_opt.c(175): warning C4018: '>' : signed/unsigned mismatch
+         prim_add_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_add_opt.c(43): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+         prim_andor_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_andor_opt.c(41): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_andor_opt.c(43): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+         prim_alphaComp_opt.c
+         prim_colors_opt.c
+         prim_set_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set_opt.c(64): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set_opt.c(88): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set_opt.c(139): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_set_opt.c(163): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+         prim_shift_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_shift_opt.c(42): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_shift_opt.c(45): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_shift_opt.c(48): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_shift_opt.c(51): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+         prim_sign_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_sign_opt.c(65): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_sign_opt.c(117): warning C4267: '-=' : conversion from 'size_t' to 'INT32', possible loss of data
+         prim_YUV_opt.c
+         prim_YCoCg_opt.c
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg_opt.c(76): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg_opt.c(85): warning C4018: '>' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg_opt.c(235): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\FreeRdpClient\FreeRDP-master\libfreerdp\primitives\prim_YCoCg_opt.c(244): warning C4018: '>' : signed/unsigned mismatch
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "EXT_PATH=\\\"C:/Program Files/FreeRDP/lib/freerdp/extensions\\\"" /D CMAKE_BUILD_TYPE=Release /D "CMAKE_INTDIR=\\\"Debug\\\"" /D freerdp_EXPORTS /D _UNICODE /D UNICODE /l"0x0409" /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"C:\OpenSSL-Win64\include" /nologo /fo"freerdp.dir\Debug\version.res" D:\FreeRdpClient\libfreerdp\version.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FreeRdpClient\Debug\freerdp.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib "C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib" "C:\OpenSSL-Win64\lib\VC\libeay32MD.lib" ..\Debug\winpr.lib ntdsapi.lib crypt32.lib "C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib" "C:\OpenSSL-Win64\lib\VC\libeay32MD.lib" Dbghelp.lib ws2_32.lib rpcrt4.lib credui.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/FreeRdpClient/Debug/freerdp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/FreeRdpClient/Debug/freerdp.lib" /MACHINE:X64  /machine:x64 /debug /DLL freerdp.dir\Debug\version.res
+         freerdp.dir\Debug\passphrase.obj
+         freerdp.dir\Debug\pcap.obj
+         freerdp.dir\Debug\profiler.obj
+         freerdp.dir\Debug\ringbuffer.obj
+         freerdp.dir\Debug\signal.obj
+         freerdp.dir\Debug\stopwatch.obj
+         freerdp.dir\Debug\addin.obj
+         freerdp.dir\Debug\assistance.obj
+         freerdp.dir\Debug\8bpp.obj
+         freerdp.dir\Debug\16bpp.obj
+         freerdp.dir\Debug\32bpp.obj
+         freerdp.dir\Debug\clipping.obj
+         freerdp.dir\Debug\dc.obj
+         freerdp.dir\Debug\drawing.obj
+         freerdp.dir\Debug\line.obj
+         freerdp.dir\Debug\pen.obj
+         freerdp.dir\Debug\shape.obj
+         freerdp.dir\Debug\gfx.obj
+         freerdp.dir\Debug\gdi.obj
+         freerdp.dir\Debug\pointer.obj
+         freerdp.dir\Debug\nine_grid.obj
+         freerdp.dir\Debug\offscreen.obj
+         freerdp.dir\Debug\glyph.obj
+         freerdp.dir\Debug\cache.obj
+         freerdp.dir\Debug\er.obj
+         freerdp.dir\Debug\der.obj
+         freerdp.dir\Debug\ber.obj
+         freerdp.dir\Debug\per.obj
+         freerdp.dir\Debug\base64.obj
+         freerdp.dir\Debug\crypto.obj
+         freerdp.dir\Debug\tls.obj
+         freerdp.dir\Debug\keyboard_layout.obj
+         freerdp.dir\Debug\keyboard.obj
+         freerdp.dir\Debug\locale.obj
+         freerdp.dir\Debug\bulk.obj
+         freerdp.dir\Debug\activation.obj
+         freerdp.dir\Debug\gcc.obj
+         freerdp.dir\Debug\mcs.obj
+         freerdp.dir\Debug\nla.obj
+         freerdp.dir\Debug\nego.obj
+         freerdp.dir\Debug\info.obj
+         freerdp.dir\Debug\input.obj
+         freerdp.dir\Debug\license.obj
+         freerdp.dir\Debug\errinfo.obj
+         freerdp.dir\Debug\errbase.obj
+         freerdp.dir\Debug\errconnect.obj
+         freerdp.dir\Debug\security.obj
+         freerdp.dir\Debug\orders.obj
+         freerdp.dir\Debug\freerdp.obj
+         freerdp.dir\Debug\client.obj
+         freerdp.dir\Debug\server.obj
+         freerdp.dir\Debug\codecs.obj
+         freerdp.dir\Debug\metrics.obj
+         freerdp.dir\Debug\capabilities.obj
+         freerdp.dir\Debug\connection.obj
+         freerdp.dir\Debug\redirection.obj
+         freerdp.dir\Debug\autodetect.obj
+         freerdp.dir\Debug\heartbeat.obj
+         freerdp.dir\Debug\multitransport.obj
+         freerdp.dir\Debug\rdp.obj
+         freerdp.dir\Debug\tcp.obj
+         freerdp.dir\Debug\tpdu.obj
+         freerdp.dir\Debug\tpkt.obj
+         freerdp.dir\Debug\fastpath.obj
+         freerdp.dir\Debug\surface.obj
+         freerdp.dir\Debug\transport.obj
+         freerdp.dir\Debug\update.obj
+         freerdp.dir\Debug\message.obj
+         freerdp.dir\Debug\channels.obj
+         freerdp.dir\Debug\window.obj
+         freerdp.dir\Debug\listener.obj
+         freerdp.dir\Debug\peer.obj
+         freerdp.dir\Debug\tsg.obj
+         freerdp.dir\Debug\rdg.obj
+         freerdp.dir\Debug\rpc.obj
+         freerdp.dir\Debug\rpc_bind.obj
+         freerdp.dir\Debug\rpc_client.obj
+         freerdp.dir\Debug\rpc_fault.obj
+         freerdp.dir\Debug\rts.obj
+         freerdp.dir\Debug\rts_signature.obj
+         freerdp.dir\Debug\ntlm.obj
+         freerdp.dir\Debug\http.obj
+         freerdp.dir\Debug\ncacn_http.obj
+         freerdp.dir\Debug\dsp.obj
+         freerdp.dir\Debug\color.obj
+         freerdp.dir\Debug\audio.obj
+         freerdp.dir\Debug\planar.obj
+         freerdp.dir\Debug\interleaved.obj
+         freerdp.dir\Debug\progressive.obj
+         freerdp.dir\Debug\rfx_decode.obj
+         freerdp.dir\Debug\rfx_differential.obj
+         freerdp.dir\Debug\rfx_dwt.obj
+         freerdp.dir\Debug\rfx_encode.obj
+         freerdp.dir\Debug\rfx_quantization.obj
+         freerdp.dir\Debug\rfx_rlgr.obj
+         freerdp.dir\Debug\rfx.obj
+         freerdp.dir\Debug\nsc.obj
+         freerdp.dir\Debug\nsc_encode.obj
+         freerdp.dir\Debug\ncrush.obj
+         freerdp.dir\Debug\xcrush.obj
+         freerdp.dir\Debug\mppc.obj
+         freerdp.dir\Debug\zgfx.obj
+         freerdp.dir\Debug\clear.obj
+         freerdp.dir\Debug\jpeg.obj
+         freerdp.dir\Debug\h264.obj
+         freerdp.dir\Debug\rfx_sse2.obj
+         freerdp.dir\Debug\nsc_sse2.obj
+         freerdp.dir\Debug\prim_16to32bpp.obj
+         freerdp.dir\Debug\prim_add.obj
+         freerdp.dir\Debug\prim_andor.obj
+         freerdp.dir\Debug\prim_alphaComp.obj
+         freerdp.dir\Debug\prim_colors.obj
+         freerdp.dir\Debug\prim_copy.obj
+         freerdp.dir\Debug\prim_set.obj
+         freerdp.dir\Debug\prim_shift.obj
+         freerdp.dir\Debug\prim_sign.obj
+         freerdp.dir\Debug\prim_YUV.obj
+         freerdp.dir\Debug\prim_YCoCg.obj
+         freerdp.dir\Debug\primitives.obj
+         freerdp.dir\Debug\prim_16to32bpp_opt.obj
+         freerdp.dir\Debug\prim_add_opt.obj
+         freerdp.dir\Debug\prim_andor_opt.obj
+         freerdp.dir\Debug\prim_alphaComp_opt.obj
+         freerdp.dir\Debug\prim_colors_opt.obj
+         freerdp.dir\Debug\prim_set_opt.obj
+         freerdp.dir\Debug\prim_shift_opt.obj
+         freerdp.dir\Debug\prim_sign_opt.obj
+         freerdp.dir\Debug\prim_YUV_opt.obj
+         freerdp.dir\Debug\prim_YCoCg_opt.obj
+         freerdp.dir\Debug\/common/settings.c.obj
+         freerdp.dir\Debug\/gdi/bitmap.c.obj
+         freerdp.dir\Debug\/gdi/brush.c.obj
+         freerdp.dir\Debug\/gdi/palette.c.obj
+         freerdp.dir\Debug\/gdi/region.c.obj
+         freerdp.dir\Debug\/gdi/graphics.c.obj
+         freerdp.dir\Debug\/cache/brush.c.obj
+         freerdp.dir\Debug\/cache/bitmap.c.obj
+         freerdp.dir\Debug\/cache/palette.c.obj
+         freerdp.dir\Debug\/crypto/certificate.c.obj
+         freerdp.dir\Debug\/locale/timezone.c.obj
+         freerdp.dir\Debug\/core/settings.c.obj
+         freerdp.dir\Debug\/core/graphics.c.obj
+         freerdp.dir\Debug\/core/certificate.c.obj
+         freerdp.dir\Debug\/core/timezone.c.obj
+         freerdp.dir\Debug\/codec/bitmap.c.obj
+         freerdp.dir\Debug\/codec/region.c.obj
+            Creating library D:/FreeRdpClient/Debug/freerdp.lib and object D:/FreeRdpClient/Debug/freerdp.exp
+         freerdp.vcxproj -> D:\FreeRdpClient\Debug\freerdp.dll
+     1>Done Building Project "D:\FreeRdpClient\libfreerdp\freerdp.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.23

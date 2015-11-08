@@ -1,0 +1,15 @@
+﻿Build started 11/8/2015 4:14:46 PM.
+     1>Project "D:\FreeRdpClient\client\Windows\cli\wfreerdp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"D:\FreeRdpClient\FreeRDP-master\rdtk\include" /ID:\FreeRdpClient\rdtk\include /I"D:\FreeRdpClient\FreeRDP-master\client\Windows\cli\.." /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"wfreerdp.dir\Debug\\" /Fd"wfreerdp.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\client\Windows\cli\wfreerdp.c"
+         wfreerdp.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FreeRdpClient\Debug\wfreerdp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\..\..\Debug\wfreerdp-client.lib" "..\..\..\Debug\freerdp-client.lib" "..\..\..\Debug\audin-client.lib" "..\..\..\Debug\disp-client.lib" "..\..\..\Debug\echo-client.lib" "..\..\..\Debug\rdpei-client.lib" "..\..\..\Debug\rdpgfx-client.lib" "..\..\..\Debug\cliprdr-client.lib" "..\..\..\Debug\drdynvc-client.lib" "..\..\..\Debug\encomsp-client.lib" "..\..\..\Debug\rail-client.lib" "..\..\..\Debug\rdpdr-client.lib" "..\..\..\Debug\rdpsnd-client.lib" "..\..\..\Debug\remdesk-client.lib" "..\..\..\Debug\drive-client.lib" "..\..\..\Debug\printer-client.lib" "..\..\..\Debug\smartcard-client.lib" "..\..\..\Debug\audin-client-winmm.lib" "..\..\..\Debug\rdpsnd-client-winmm.lib" winmm.lib ..\..\..\Debug\freerdp.lib ..\..\..\Debug\winpr.lib ntdsapi.lib crypt32.lib Dbghelp.lib rpcrt4.lib credui.lib "C:\OpenSSL-Win64\lib\VC\ssleay32MD.lib" "C:\OpenSSL-Win64\lib\VC\libeay32MD.lib" ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/FreeRdpClient/Debug/wfreerdp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/FreeRdpClient/Debug/wfreerdp.lib" /MACHINE:X64  /machine:x64 /debug wfreerdp.dir\Debug\wfreerdp.res
+         wfreerdp.dir\Debug\version.res
+         wfreerdp.dir\Debug\wfreerdp.obj
+         wfreerdp.vcxproj -> D:\FreeRdpClient\Debug\wfreerdp.exe
+     1>Done Building Project "D:\FreeRdpClient\client\Windows\cli\wfreerdp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

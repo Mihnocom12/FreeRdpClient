@@ -1,0 +1,22 @@
+﻿Build started 11/8/2015 4:05:00 PM.
+     1>Project "D:\FreeRdpClient\channels\rdpgfx\client\rdpgfx-client.vcxproj" on node 9 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\FreeRdpClient /ID:\FreeRdpClient\include /I"D:\FreeRdpClient\FreeRDP-master\include" /I"D:\FreeRdpClient\FreeRDP-master\winpr\include" /ID:\FreeRdpClient\winpr\include /I"D:\FreeRdpClient\FreeRDP-master\rdtk\include" /ID:\FreeRdpClient\rdtk\include /I"D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\.." /Zi /nologo /W3 /WX- /Od /Ob2 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D WITH_OPENSSL /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"rdpgfx-client.dir\Debug\\" /Fd"rdpgfx-client.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt "D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_main.c" "D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_codec.c" "D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_common.c"
+         rdpgfx_main.c
+     1>D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_main.c(1014): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_main.c(1126): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_main.c(1153): warning C4267: 'function' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>D:\FreeRdpClient\FreeRDP-master\channels\rdpgfx\client\rdpgfx_main.c(1463): warning C4244: '=' : conversion from 'ULONG_PTR' to 'UINT16', possible loss of data
+         rdpgfx_codec.c
+         rdpgfx_common.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\FreeRdpClient\Debug\rdpgfx-client.lib" /NOLOGO /MACHINE:X64  /machine:x64 "rdpgfx-client.dir\Debug\rdpgfx_main.obj"
+         "rdpgfx-client.dir\Debug\rdpgfx_codec.obj"
+         "rdpgfx-client.dir\Debug\rdpgfx_common.obj"
+         rdpgfx-client.vcxproj -> D:\FreeRdpClient\Debug\rdpgfx-client.lib
+     1>Done Building Project "D:\FreeRdpClient\channels\rdpgfx\client\rdpgfx-client.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66

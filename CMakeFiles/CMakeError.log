@@ -1,0 +1,403 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_442ac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:58:57 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_442ac.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_442ac.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_442ac.dir\Debug\cmTC_442ac.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_442ac.dir\Debug\cmTC_442ac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_442ac.dir\Debug\\" /Fd"cmTC_442ac.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_442ac.dir\Debug\\" /Fd"cmTC_442ac.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_442ac.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_442ac.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_442ac.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_442ac.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.27
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files execinfo.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bf8d2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:58:57 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_bf8d2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bf8d2.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bf8d2.dir\Debug\cmTC_bf8d2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bf8d2.dir\Debug\cmTC_bf8d2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bf8d2.dir\Debug\\" /Fd"cmTC_bf8d2.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bf8d2.dir\Debug\\" /Fd"cmTC_bf8d2.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'execinfo.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_bf8d2.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_bf8d2.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_bf8d2.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'execinfo.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_bf8d2.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.27
+
+Source:
+/* */
+#include <execinfo.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/modem.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e76c6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:58:59 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_e76c6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e76c6.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e76c6.dir\Debug\cmTC_e76c6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e76c6.dir\Debug\cmTC_e76c6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e76c6.dir\Debug\\" /Fd"cmTC_e76c6.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e76c6.dir\Debug\\" /Fd"cmTC_e76c6.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/modem.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_e76c6.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_e76c6.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_e76c6.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/modem.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_e76c6.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+
+Source:
+/* */
+#include <sys/modem.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/filio.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_39d59.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:58:59 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_39d59.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_39d59.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_39d59.dir\Debug\cmTC_39d59.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_39d59.dir\Debug\cmTC_39d59.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_39d59.dir\Debug\\" /Fd"cmTC_39d59.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_39d59.dir\Debug\\" /Fd"cmTC_39d59.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/filio.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_39d59.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_39d59.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_39d59.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/filio.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_39d59.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/sockio.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6b473.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:58:59 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_6b473.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6b473.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6b473.dir\Debug\cmTC_6b473.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6b473.dir\Debug\cmTC_6b473.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6b473.dir\Debug\\" /Fd"cmTC_6b473.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6b473.dir\Debug\\" /Fd"cmTC_6b473.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/sockio.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_6b473.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_6b473.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_6b473.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/sockio.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_6b473.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+
+Source:
+/* */
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/strtio.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2578e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:59:00 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_2578e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2578e.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2578e.dir\Debug\cmTC_2578e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2578e.dir\Debug\cmTC_2578e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2578e.dir\Debug\\" /Fd"cmTC_2578e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2578e.dir\Debug\\" /Fd"cmTC_2578e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/strtio.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_2578e.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_2578e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_2578e.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/strtio.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_2578e.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+
+Source:
+/* */
+#include <sys/strtio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/select.h exist failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_75915.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:59:00 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_75915.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_75915.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_75915.dir\Debug\cmTC_75915.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_75915.dir\Debug\cmTC_75915.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_75915.dir\Debug\\" /Fd"cmTC_75915.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_75915.dir\Debug\\" /Fd"cmTC_75915.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_75915.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_75915.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_75915.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_75915.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+
+Source:
+/* */
+#include <sys/select.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_TM_GMTOFF failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3264c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:59:01 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_3264c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3264c.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3264c.dir\Debug\cmTC_3264c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3264c.dir\Debug\cmTC_3264c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D HAVE_TM_GMTOFF /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3264c.dir\Debug\\" /Fd"cmTC_3264c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D HAVE_TM_GMTOFF /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3264c.dir\Debug\\" /Fd"cmTC_3264c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'tm_gmtoff' : is not a member of 'tm' [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_3264c.vcxproj]
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h(113) : see declaration of 'tm'
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_3264c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_3264c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\src.c(6): error C2039: 'tm_gmtoff' : is not a member of 'tm' [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_3264c.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.28
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct tm *)0)->tm_gmtoff);
+   return 0;
+}
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/FreeRdpClient/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0e11b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/8/2015 3:59:01 PM.
+Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_0e11b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0e11b.dir\Debug\".
+  Creating directory "D:\FreeRdpClient\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0e11b.dir\Debug\cmTC_0e11b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0e11b.dir\Debug\cmTC_0e11b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0e11b.dir\Debug\\" /Fd"cmTC_0e11b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _AMD64_ /D UNICODE /D _UNICODE /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /D WINVER=0x0501 /D WIN32_WINNT=0x0501 /D WINPR_EXPORTS /D FREERDP_EXPORTS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0e11b.dir\Debug\\" /Fd"cmTC_0e11b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_0e11b.vcxproj]
+Done Building Project "D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_0e11b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_0e11b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\FreeRdpClient\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\FreeRdpClient\CMakeFiles\CMakeTmp\cmTC_0e11b.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.27
+
+
